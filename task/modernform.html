@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Grup Hiking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Montserrat";
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background: url(Hill.gif);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        fieldset {
+            width: 90%;
+            background-color: rgba(255, 255, 255, 0.416);
+            border: none;
+            box-shadow: 10px 10px 30px #0000008a;
+            border-radius: 20px;
+
+        }
+
+        legend {
+            text-align: center;
+            background: #93919191;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px 20px #0000008a;
+            border-radius: 25px;
+        }
+
+        .panel {
+            width: 30%;
+            padding: 20px;
+        }
+
+        form {
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        input {
+            width: 95%;
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.407);
+            font-weight: bold;
+        }
+
+  
+
+        h1 {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        h5{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            margin-right: 20px;
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pendaftaran Hiking Club</h1>
+        <p>Leader:Rizqi Irkham Maulana</p>
+        <div class="panel">
+            <fieldset>
+                <legend><img src="mountaint.png" alt="" width="150px" height="150px"></legend>
+
+                <form action="#" method="post">
+                    <input type="text" required placeholder=" Nama Depan">
+                    <input type="text" required placeholder=" Nama Belakang">
+                    <input type="email" required placeholder=" Nama Email">
+                    <input type="password" required placeholder=" Nama Password">
+                    <input type="text" required placeholder="Nomor">
+                    <input type="submit" class="btn-login" value="Submit">
+                </form>
+
+            </fieldset>
+            <h5>Enjoy in the Hiking Club</h5>
+        </div>
+       
+    </div>
+</body>
+
+</html>

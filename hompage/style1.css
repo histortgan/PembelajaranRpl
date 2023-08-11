@@ -1,0 +1,86 @@
+
+     *{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat";
+    }
+        .navbar{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        background-color: rgba(0,0,0,0.3);
+        overflow: hidden;
+        }
+        .navbar-brand{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+          .navbar-item{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            margin: 10px;
+
+        }
+        .list-item{
+            color: white;
+        }
+
+        li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+
+        }
+        /* bagian hero */
+        .hero{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;  
+            background: #627F7D;         
+        }
+        .area-tittle{
+            width: 30%;
+            padding: 100px;
+            color: white;
+        }
+        .text-tittle{
+            font-size: 3em;
+            font-weight: bold;
+            
+        }
+        .text-tagline{
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+        .button-explore{
+            margin-top: 30px;
+        }
+        .btn-explore{
+            background: #7EAA92;
+            padding: 10px 30px;
+            border-radius: 30px;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .area
+
+        .img-brands img{
+            width:780px;
+            
+        }

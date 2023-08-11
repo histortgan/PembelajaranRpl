@@ -1,0 +1,28 @@
+.home {
+    background: #000cc0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .kanan {
+    background: pink;
+    width: 50%;
+    height: 50%;
+    color: white;
+    text-align: center;
+  }
+
+  .kiri {
+    background: red;
+    width: 50%;
+    height: 50%;
+    color: white;
+    text-align: center;
+  }
+  #card{
+        width: 100vw;
+        height: 50vh;
+        background: magenta;
+  }
